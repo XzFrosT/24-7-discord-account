@@ -10,7 +10,7 @@ client = commands.Bot(
 
 @client.event
 async def on_connect():
-  await client.change_presence(status=discord.Status.online) // you can change to online, dnd, and idle,
+  await client.change_presence(status=discord.Status.online) 
   
 
 
